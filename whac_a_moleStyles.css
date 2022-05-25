@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.grid{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: black;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+    background-color: rgb(172, 103, 43);
+}
+
+.mole {
+    background-image: url('./mole1.png');
+    background-size: cover;
+}
+
+.hitEffect {
+    background-color: white;
+}
